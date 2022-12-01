@@ -1,7 +1,6 @@
-# Traffic signs data challenge
+# Algorithms for Open Set Classification on Image Datasets
 
-This is the code implementation for "Single and Combined Algorithms for Open Set Classification on Image Datasets" paper. <br>
-Paper link: ... not yet !
+This is the code implementation for "Creating Algorithms for Open Set Classification on Image Datasets" project. <br>
 
 ## Repo summary
 Implementation for the proposed solutions -- single and combined algorithms -- to tackle open set classification task for image datasets, where a K-classifier is expanded to be able to identify K+1 classes. The algorithms do not require any retraining or modification on the K-classifier architecture. They are strong when avoiding type I or type II errors is fundamental. We also present a mathematical representation for the task to estimate the $K+1$ classification accuracy, and an inequality that defines its boundaries. Additionally, a formula is proposed to calculate the exact K+1 classification accuracy.
