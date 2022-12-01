@@ -3,7 +3,7 @@
 This is the code implementation for "Creating Algorithms for Open Set Classification on Image Datasets" project. <br>
 
 ## Repo summary
-Implementation for the proposed solutions -- single and combined algorithms -- to tackle open set classification task for image datasets, where a K-classifier is expanded to be able to identify K+1 classes. The algorithms do not require any retraining or modification on the K-classifier architecture. They are strong when avoiding type I or type II errors is fundamental. We also present a mathematical representation for the task to estimate the $K+1$ classification accuracy, and an inequality that defines its boundaries. Additionally, a formula is proposed to calculate the exact K+1 classification accuracy.
+Implementation for the proposed solutions - single and combined algorithms - to tackle open set classification task for image datasets, where a K-classifier is expanded to be able to identify K+1 classes. The algorithms do not require any retraining or modification on the K-classifier architecture. They are strong when avoiding type I or type II errors is fundamental. We also present a mathematical representation for the task to estimate the $K+1$ classification accuracy, and an inequality that defines its boundaries. Additionally, a formula is proposed to calculate the exact K+1 classification accuracy.
 
 ## Models
 Two K-classifiers were trained in addition to a GAN (to use its discriminator). The training notebooks can be found in [models_train](./models_train/) folder.
